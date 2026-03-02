@@ -6,7 +6,7 @@ set -euo pipefail
 
 echo "=== Security Copilot Agent Dev Container – post-create setup ==="
 
-# ── npm: install MCP package locally if not already present ──────────────────
+## ── npm: install MCP package locally if not already present ──────────────────
 if ! command -v azure-mcp &>/dev/null && [ -f package.json ]; then
     echo "-> Installing npm dependencies..."
     npm install

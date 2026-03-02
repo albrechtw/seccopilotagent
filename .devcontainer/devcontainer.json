@@ -26,17 +26,15 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                // ── GitHub Copilot ──────────────────────────────────────────
-                "GitHub.copilot",
+                // ── GitHub Copilot Chat ─────────────────────────────────────
                 "GitHub.copilot-chat",
 
                 // ── PowerShell ──────────────────────────────────────────────
                 "ms-vscode.powershell",
 
                 // ── Azure tooling ───────────────────────────────────────────
-                "ms-vscode.azure-account",
                 "ms-azuretools.vscode-azureresourcegroups",
-                "msazurermtools.azurerm-vscode-tools",
+                "ms-azuretools.vscode-bicep",
                 "ms-azure-devops.azure-pipelines",
 
                 // ── Sentinel / KQL / Log Analytics ─────────────────────────
@@ -45,8 +43,8 @@
 
                 // ── Language & format support ───────────────────────────────
                 "redhat.vscode-yaml",
-                "ms-python.python",
-                "ms-python.vscode-pylance",
+//                "ms-python.python",
+//                "ms-python.vscode-pylance",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
 
@@ -75,8 +73,8 @@
                 "powershell.powerShellDefaultVersion": "PowerShell",
                 "powershell.promptToUpdatePowerShell": false,
 
-                // Python
-                "python.defaultInterpreterPath": "/usr/bin/python3",
+//                // Python
+//                "python.defaultInterpreterPath": "/usr/bin/python3",
 
                 // Editor
                 "editor.formatOnSave": true,
