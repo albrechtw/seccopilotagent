@@ -38,6 +38,7 @@
                 "ms-azure-devops.azure-pipelines",
 
                 // ── Sentinel / KQL / Log Analytics ─────────────────────────
+                "ms-security.ms-sentinel",
                 "azure-sentinel.vscode-sentinel",
                 "ms-azure-devops.azure-kusto-analytics",
 
