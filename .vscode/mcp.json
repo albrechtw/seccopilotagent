@@ -16,6 +16,10 @@
             "url": "https://sentinel.microsoft.com/mcp/graph",
             "type": "http"
         },
+		"MCP Server for Enterprise": {
+			"url": "https://mcp.svc.cloud.microsoft/enterprise",
+			"type": "http"
+		},
 	},
     "inputs": []
 }
